@@ -1,0 +1,6 @@
+rm(list = ls())
+setwd("C:/Users/Dell/Documents/BigDataAnalytics/CrimeData")
+mvt = read.csv("CrimeData.csv")
+length(mvt)
+length(mvt$ID)
+str(mvt)
